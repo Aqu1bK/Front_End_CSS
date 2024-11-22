@@ -1,0 +1,102 @@
+body {
+    display: block;
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather",serif;
+}
+
+div {
+    display: block;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top:40px;
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento",cursive;
+}
+
+h2 {
+    color:#66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.middle-conatiner {
+    margin: 100px 0;
+}
+
+.profile > img {
+    border-radius: 50%;
+}
+
+.profile {
+    margin-top: 100px;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+p {
+    line-height: 2;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr ;
+    grid-row: repeat(1,1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    row-gap: 2rem;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: #e4f9f5;
+    font-size: 0.95rem;
+    padding: 20px 0;
+
+}
+
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
